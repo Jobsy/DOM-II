@@ -181,6 +181,12 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   position: fixed;
 }
+.main-navigation p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .main-navigation .nav-container {
   height: 100%;
   display: flex;
@@ -233,6 +239,12 @@ img {
 .home .intro img {
   max-width: 100%;
   height: auto;
+}
+.home .intro img .zoomMe {
+  width: 105px;
+  height: 105px;
+  background: #cdf;
+  padding: 5px;
 }
 .home .intro h2 {
   margin-top: 20px;
